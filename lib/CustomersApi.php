@@ -22,6 +22,14 @@
 
 namespace DwollaSwagger;
 
+use DwollaSwagger\Models\CreateCustomer;
+use DwollaSwagger\Models\CreateOwnerRequest;
+use DwollaSwagger\Models\Customer;
+use DwollaSwagger\Models\CustomerListResponse;
+use DwollaSwagger\Models\Owner;
+use DwollaSwagger\Models\Unit;
+use DwollaSwagger\Models\UpdateCustomer;
+
 class CustomersApi {
 
   function __construct($apiClient = null) {

@@ -450,7 +450,7 @@ class ApiClient {
       settype($data, $class);
       $deserialized = $data;
     } else {
-      $class = "DwollaSwagger\\models\\".$class;
+      $class = "DwollaSwagger\\Models\\".$class;
       $instance = new $class();
       foreach ($instance::$swaggerTypes as $property => $type) {
         $original_property_name = $instance::$attributeMap[$property];

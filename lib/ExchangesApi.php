@@ -22,9 +22,9 @@
 
 namespace DwollaSwagger;
 
-use DwollaSwagger\models\CreateExchangeRequest;
-use DwollaSwagger\models\Exchange;
-use DwollaSwagger\models\ExchangeListResponse;
+use DwollaSwagger\_models\CreateExchangeRequest;
+use DwollaSwagger\_models\Exchange;
+use DwollaSwagger\_models\ExchangeListResponse;
 
 class ExchangesApi {
 

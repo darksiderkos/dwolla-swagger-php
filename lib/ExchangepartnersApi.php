@@ -22,8 +22,8 @@
 
 namespace DwollaSwagger;
 
-use DwollaSwagger\models\ExchangePartner;
-use DwollaSwagger\models\ExchangePartnerListResponse;
+use DwollaSwagger\_models\ExchangePartner;
+use DwollaSwagger\_models\ExchangePartnerListResponse;
 
 class ExchangepartnersApi {
 
